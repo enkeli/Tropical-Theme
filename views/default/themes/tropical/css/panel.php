@@ -208,3 +208,79 @@
 	font-weight: bold;
 	text-decoration: none;
 }
+
+
+
+
+
+/**********************************
+
+ PANEL MODULES
+
+***********************************/
+
+/**********************************
+Search mod
+***********************************/
+.deyan-panel-right .elgg-search {
+	float: right;
+	margin: 5px 10px 0 10px;
+}
+.deyan-panel-right .elgg-search input[type=text] {
+	width: 230px;
+}
+.deyan-panel-right .elgg-search input[type=submit] {
+	display: none;
+}
+.elgg-search input[type=text] {
+	border-radius: 5px;
+	
+	border: 1px solid #333;
+	border-bottom: 2px groove #333;
+	color: white;
+	font-size: 12px;
+	font-weight: bold;
+	padding: 3px 4px 3px 26px;
+	background: #777 url(<?php echo elgg_get_site_url(); ?>_graphics/elgg_sprites.png) no-repeat 2px -718px;
+}
+.elgg-search input[type=text]:focus, .elgg-search input[type=text]:active {
+	background-color: #eef;
+	background-position: 2px -700px;
+	border: 1px solid white;
+	color: #0054A7;
+}
+
+.search-list li {
+	padding: 5px 0 0;
+}
+.search-heading-category {
+	margin-top: 20px;
+	color: #666666;
+}
+
+.search-highlight {
+	background-color: #bbdaf7;
+}
+.search-highlight-color1 {
+	background-color: #bbdaf7;
+}
+.search-highlight-color2 {
+	background-color: #A0FFFF;
+}
+.search-highlight-color3 {
+	background-color: #FDFFC3;
+}
+.search-highlight-color4 {
+	background-color: #ccc;
+}
+.search-highlight-color5 {
+	background-color: #4690d6;
+}
+
+
+/********************************
+ Messages
+********************************/
+.message.unread a {
+	font-weight: bold;
+}
