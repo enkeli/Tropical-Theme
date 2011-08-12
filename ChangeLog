@@ -1,0 +1,17 @@
+2011-07-15 	Angel Gabriel	<angel.wrt@gmail.com> 
+
+	*manifest.xml:	Version upgraded to 1.0.1 & now requires that tropical
+		theme need to be before Deyan Shell in plugin's list.
+
+	*views/default/themes/tropical/css/modules.php: 
+	*views/default/themes/tropical/css/components.php:
+	*views/default/themes/tropical/css/forms.php:
+	*views/default/themes/tropical/css/layout.php:
+	*views/default/themes/tropical/css/navigation.php:	Included
+		all the changes in elgg core release 1.8.0b2
+
+	*views/default/themes/tropical/css/core.php:
+	*views/default/themes/tropical/css/grid.php:
+	*views/default/themes/tropical/css/helpers.php:
+	*views/default/themes/tropical/css/misc.php:	Erased; as the new
+		disposition in Deyan Shell
